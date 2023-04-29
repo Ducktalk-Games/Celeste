@@ -28,6 +28,12 @@ if unreal.EditorAssetLibrary.does_asset_exist(master_mat_path):
             asset_name = asset.get_name()
 
             if "T_" in asset_name:
+                print("Analysing " + asset_name)
+
+                if asset_name.endswith("_ORM"):
+                    print(asset_name)
+                    asset.srgb = False
+                    # asset.set_editor_property("srgb", False)
 
                 texture_path = asset.get_path_name()
 
