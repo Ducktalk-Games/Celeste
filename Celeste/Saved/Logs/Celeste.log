@@ -15714,3 +15714,1470 @@ Make sure 'BP_Celeste_C' has been compiled for  Reset Grab
 [2023.04.29-14.07.40:854][284]LogContentValidation: Display: Validating Blueprint /Game/Celeste/Mechanics/BP_Celeste.BP_Celeste
 [2023.04.29-14.07.40:854][284]LogContentValidation: Display: Validating StaticMeshActor /Game/Celeste/Levels/L_Mechanics.L_Mechanics:PersistentLevel.StaticMeshActor_UAID_E82A448D862EB87D01_1226791545
 [2023.04.29-14.07.40:854][284]LogContentValidation: Display: Validating BP_Celeste_C /Game/Celeste/Levels/L_Mechanics.L_Mechanics:PersistentLevel.BP_ThirdPersonCharacter_C_UAID_E82A448D862EB77D01_1499394367
+[2023.04.29-14.14.38:064][685]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.04.29-14.14.38:075][685]LogWorldPartition: Display: GenerateStreaming started...
+[2023.04.29-14.14.38:075][685]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.04.29-14.14.38:075][685]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.04.29-14.14.38:075][685]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2023.04.29-14.14.38:075][685]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2023.04.29-14.14.38:076][685]LogWorldPartition: Display: GetPartitionedActors took 177 us
+[2023.04.29-14.14.38:076][685]LogWorldPartition: Display: GenerateStreaming took 491 us
+[2023.04.29-14.14.38:076][685]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.04.29-14.14.38:076][685]PIE: New page: PIE session: L_Mechanics (29 Apr 2023, 16:14:38)
+[2023.04.29-14.14.38:076][685]LogPlayLevel: Creating play world package: /Game/Celeste/Levels/UEDPIE_0_L_Mechanics
+[2023.04.29-14.14.38:080][685]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2023.04.29-14.14.38:080][685]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003938s)
+[2023.04.29-14.14.38:081][685]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Celeste/Levels/L_Mechanics.L_Mechanics to /Game/Celeste/Levels/UEDPIE_0_L_Mechanics.L_Mechanics (0.004047s)
+[2023.04.29-14.14.38:081][685]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.04.29-14.14.38:081][685]LogAIModule: Creating AISystem for world L_Mechanics
+[2023.04.29-14.14.38:082][685]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.04.29-14.14.38:082][685]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2023.04.29-14.14.38:082][685]LogWorldPartition: Display: WorldPartition initialize took 764 us
+[2023.04.29-14.14.38:082][685]LogPlayLevel: PIE: World Init took: (0.001919s)
+[2023.04.29-14.14.38:226][685]LogUObjectHash: Compacting FUObjectHashTables data took   4.51ms
+[2023.04.29-14.14.38:232][685]LogAudio: Display: Creating Audio Device:                 Id: 205, Scope: Unique, Realtime: True
+[2023.04.29-14.14.38:232][685]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.04.29-14.14.38:232][685]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.04.29-14.14.38:232][685]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.04.29-14.14.38:232][685]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.04.29-14.14.38:232][685]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.04.29-14.14.38:232][685]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.04.29-14.14.38:232][685]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.04.29-14.14.38:232][685]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.04.29-14.14.38:234][685]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.04.29-14.14.38:234][685]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.04.29-14.14.38:234][685]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.04.29-14.14.38:357][685]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.04.29-14.14.38:596][685]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (Corsair VIRTUOSO USB Gaming Headset)
+[2023.04.29-14.14.38:596][685]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.04.29-14.14.38:596][685]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.04.29-14.14.38:596][685]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.04.29-14.14.38:597][685]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=205
+[2023.04.29-14.14.38:597][685]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=205
+[2023.04.29-14.14.38:598][685]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=205
+[2023.04.29-14.14.38:598][685]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=205
+[2023.04.29-14.14.38:598][685]LogInit: FAudioDevice initialized.
+[2023.04.29-14.14.38:598][685]LogAudio: Display: Audio Device (ID: 205) registered with world 'L_Mechanics'.
+[2023.04.29-14.14.38:615][685]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.04.29-14.14.38:617][685]LogWorld: Bringing World /Game/Celeste/Levels/UEDPIE_0_L_Mechanics.L_Mechanics up for play (max tick rate 0) at 2023.04.29-15.14.38
+[2023.04.29-14.14.38:617][685]LogWorld: Bringing up level for play took: 0.002250
+[2023.04.29-14.14.38:619][685]LogOnline: OSS: Created online subsystem instance for: :Context_213
+[2023.04.29-14.14.38:620][685]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=210.000 Y=530.000 Z=92.400
+[2023.04.29-14.14.38:620][685]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.04.29-14.14.38:621][685]LogWorldPartition: Detected Streaming Source Teleport: PlayerController_0 -> Last Position: X=210.000 Y=530.000 Z=92.400 -> New Position: X=-35000.000 Y=1861.000 Z=840.000
+[2023.04.29-14.14.38:621][685]PIE: Server logged in
+[2023.04.29-14.14.38:622][685]PIE: Play in editor total start time 0.548 seconds.
+[2023.04.29-14.14.50:013][869]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.29-14.14.50:013][869]LogWorld: BeginTearingDown for /Game/Celeste/Levels/UEDPIE_0_L_Mechanics
+[2023.04.29-14.14.50:013][869]LogWorld: UWorld::CleanupWorld for L_Mechanics, bSessionEnded=true, bCleanupResources=true
+[2023.04.29-14.14.50:013][869]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.29-14.14.50:043][869]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.04.29-14.14.50:052][869]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.29-14.14.50:088][869]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.04.29-14.14.50:088][869]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=205
+[2023.04.29-14.14.50:089][869]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=205
+[2023.04.29-14.14.50:093][869]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.29-14.14.50:096][869]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2023.04.29-14.14.50:165][870]LogPlayLevel: Display: Destroying online subsystem :Context_213
+[2023.04.29-14.15.01:445][676]LogViewport: Scene viewport resized to 1140x774, mode Windowed.
+[2023.04.29-14.15.01:555][677]LogViewport: Scene viewport resized to 434x244, mode Windowed.
+[2023.04.29-14.15.01:668][678]LogViewport: Scene viewport resized to 1140x696, mode Windowed.
+[2023.04.29-14.15.01:740][679]LogViewport: Scene viewport resized to 390x220, mode Windowed.
+[2023.04.29-14.15.01:800][680]LogViewport: Scene viewport resized to 1140x653, mode Windowed.
+[2023.04.29-14.15.02:033][681]LogViewport: Scene viewport resized to 366x206, mode Windowed.
+[2023.04.29-14.15.02:101][682]LogViewport: Scene viewport resized to 1140x627, mode Windowed.
+[2023.04.29-14.15.02:149][683]LogViewport: Scene viewport resized to 352x198, mode Windowed.
+[2023.04.29-14.15.04:455][831]LogViewport: Scene viewport resized to 1152x627, mode Windowed.
+[2023.04.29-14.15.04:534][833]LogViewport: Scene viewport resized to 1183x627, mode Windowed.
+[2023.04.29-14.15.04:792][834]LogViewport: Scene viewport resized to 1232x627, mode Windowed.
+[2023.04.29-14.15.04:852][836]LogViewport: Scene viewport resized to 1262x627, mode Windowed.
+[2023.04.29-14.15.04:931][838]LogViewport: Scene viewport resized to 1288x627, mode Windowed.
+[2023.04.29-14.15.05:040][840]LogViewport: Scene viewport resized to 1293x627, mode Windowed.
+[2023.04.29-14.15.05:117][842]LogViewport: Scene viewport resized to 1302x627, mode Windowed.
+[2023.04.29-14.21.45:012][257]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.04.29-14.21.45:026][257]LogWorldPartition: Display: GenerateStreaming started...
+[2023.04.29-14.21.45:026][257]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.04.29-14.21.45:026][257]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.04.29-14.21.45:026][257]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2023.04.29-14.21.45:026][257]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2023.04.29-14.21.45:026][257]LogWorldPartition: Display: GetPartitionedActors took 69 us
+[2023.04.29-14.21.45:026][257]LogWorldPartition: Display: GenerateStreaming took 205 us
+[2023.04.29-14.21.45:026][257]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.04.29-14.21.45:026][257]PIE: New page: PIE session: L_Mechanics (29 Apr 2023, 16:21:45)
+[2023.04.29-14.21.45:026][257]LogPlayLevel: Creating play world package: /Game/Celeste/Levels/UEDPIE_0_L_Mechanics
+[2023.04.29-14.21.45:032][257]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2023.04.29-14.21.45:032][257]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005568s)
+[2023.04.29-14.21.45:032][257]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Celeste/Levels/L_Mechanics.L_Mechanics to /Game/Celeste/Levels/UEDPIE_0_L_Mechanics.L_Mechanics (0.005697s)
+[2023.04.29-14.21.45:032][257]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.04.29-14.21.45:034][257]LogAIModule: Creating AISystem for world L_Mechanics
+[2023.04.29-14.21.45:035][257]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.04.29-14.21.45:035][257]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2023.04.29-14.21.45:037][257]LogWorldPartition: Display: WorldPartition initialize took 1 ms
+[2023.04.29-14.21.45:037][257]LogPlayLevel: PIE: World Init took: (0.004458s)
+[2023.04.29-14.21.45:078][257]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2023.04.29-14.21.45:082][257]LogAudio: Display: Creating Audio Device:                 Id: 206, Scope: Unique, Realtime: True
+[2023.04.29-14.21.45:082][257]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.04.29-14.21.45:083][257]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.04.29-14.21.45:083][257]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.04.29-14.21.45:083][257]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.04.29-14.21.45:083][257]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.04.29-14.21.45:083][257]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.04.29-14.21.45:083][257]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.04.29-14.21.45:083][257]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.04.29-14.21.45:083][257]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.04.29-14.21.45:083][257]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.04.29-14.21.45:083][257]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.04.29-14.21.45:086][257]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.04.29-14.21.45:339][257]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (Corsair VIRTUOSO USB Gaming Headset)
+[2023.04.29-14.21.45:339][257]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.04.29-14.21.45:339][257]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.04.29-14.21.45:339][257]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.04.29-14.21.45:341][257]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=206
+[2023.04.29-14.21.45:341][257]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=206
+[2023.04.29-14.21.45:342][257]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=206
+[2023.04.29-14.21.45:342][257]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=206
+[2023.04.29-14.21.45:342][257]LogInit: FAudioDevice initialized.
+[2023.04.29-14.21.45:343][257]LogAudio: Display: Audio Device (ID: 206) registered with world 'L_Mechanics'.
+[2023.04.29-14.21.45:410][257]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.29-14.21.45:410][257]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.04.29-14.21.45:415][257]LogWorld: Bringing World /Game/Celeste/Levels/UEDPIE_0_L_Mechanics.L_Mechanics up for play (max tick rate 0) at 2023.04.29-15.21.45
+[2023.04.29-14.21.45:416][257]LogWorld: Bringing up level for play took: 0.005292
+[2023.04.29-14.21.45:419][257]LogOnline: OSS: Created online subsystem instance for: :Context_214
+[2023.04.29-14.21.45:419][257]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2023.04.29-14.21.45:419][257]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=210.000 Y=530.000 Z=92.400
+[2023.04.29-14.21.45:420][257]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.04.29-14.21.45:420][257]LogWorldPartition: Detected Streaming Source Teleport: PlayerController_0 -> Last Position: X=210.000 Y=530.000 Z=92.400 -> New Position: X=-35000.000 Y=1861.000 Z=840.000
+[2023.04.29-14.21.45:423][257]PIE: Server logged in
+[2023.04.29-14.21.45:425][257]PIE: Play in editor total start time 0.4 seconds.
+[2023.04.29-14.21.45:443][257]LogViewport: Scene viewport resized to 2554x1360, mode Windowed.
+[2023.04.29-14.22.20:244][187]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.29-14.22.20:244][187]LogWorld: BeginTearingDown for /Game/Celeste/Levels/UEDPIE_0_L_Mechanics
+[2023.04.29-14.22.20:245][187]LogSlate: Window 'Celeste Preview [NetMode: Standalone]  (64-bit/SM5)' being destroyed
+[2023.04.29-14.22.20:253][187]LogWorld: UWorld::CleanupWorld for L_Mechanics, bSessionEnded=true, bCleanupResources=true
+[2023.04.29-14.22.20:253][187]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.29-14.22.20:296][187]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.04.29-14.22.20:303][187]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.29-14.22.20:343][187]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=206
+[2023.04.29-14.22.20:346][187]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=206
+[2023.04.29-14.22.20:353][187]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2023.04.29-14.22.20:451][188]LogPlayLevel: Display: Destroying online subsystem :Context_214
+[2023.04.29-14.23.47:521][204]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.04.29-14.23.47:531][204]LogWorldPartition: Display: GenerateStreaming started...
+[2023.04.29-14.23.47:532][204]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.04.29-14.23.47:532][204]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.04.29-14.23.47:532][204]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2023.04.29-14.23.47:532][204]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2023.04.29-14.23.47:532][204]LogWorldPartition: Display: GetPartitionedActors took 135 us
+[2023.04.29-14.23.47:532][204]LogWorldPartition: Display: GenerateStreaming took 481 us
+[2023.04.29-14.23.47:532][204]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.04.29-14.23.47:533][204]PIE: New page: PIE session: L_Mechanics (29 Apr 2023, 16:23:47)
+[2023.04.29-14.23.47:533][204]LogPlayLevel: Creating play world package: /Game/Celeste/Levels/UEDPIE_0_L_Mechanics
+[2023.04.29-14.23.47:538][204]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2023.04.29-14.23.47:538][204]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004608s)
+[2023.04.29-14.23.47:538][204]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Celeste/Levels/L_Mechanics.L_Mechanics to /Game/Celeste/Levels/UEDPIE_0_L_Mechanics.L_Mechanics (0.004721s)
+[2023.04.29-14.23.47:538][204]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.04.29-14.23.47:539][204]LogAIModule: Creating AISystem for world L_Mechanics
+[2023.04.29-14.23.47:539][204]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.04.29-14.23.47:539][204]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2023.04.29-14.23.47:541][204]LogWorldPartition: Display: WorldPartition initialize took 1 ms
+[2023.04.29-14.23.47:541][204]LogPlayLevel: PIE: World Init took: (0.002818s)
+[2023.04.29-14.23.47:578][204]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2023.04.29-14.23.47:581][204]LogAudio: Display: Creating Audio Device:                 Id: 207, Scope: Unique, Realtime: True
+[2023.04.29-14.23.47:581][204]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.04.29-14.23.47:581][204]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.04.29-14.23.47:581][204]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.04.29-14.23.47:581][204]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.04.29-14.23.47:581][204]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.04.29-14.23.47:581][204]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.04.29-14.23.47:581][204]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.04.29-14.23.47:581][204]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.04.29-14.23.47:582][204]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.04.29-14.23.47:582][204]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.04.29-14.23.47:582][204]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.04.29-14.23.47:585][204]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.04.29-14.23.47:836][204]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (Corsair VIRTUOSO USB Gaming Headset)
+[2023.04.29-14.23.47:836][204]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.04.29-14.23.47:836][204]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.04.29-14.23.47:836][204]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.04.29-14.23.47:838][204]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=207
+[2023.04.29-14.23.47:838][204]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=207
+[2023.04.29-14.23.47:839][204]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=207
+[2023.04.29-14.23.47:839][204]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=207
+[2023.04.29-14.23.47:839][204]LogInit: FAudioDevice initialized.
+[2023.04.29-14.23.47:839][204]LogAudio: Display: Audio Device (ID: 207) registered with world 'L_Mechanics'.
+[2023.04.29-14.23.47:906][204]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.29-14.23.47:906][204]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.04.29-14.23.47:909][204]LogWorld: Bringing World /Game/Celeste/Levels/UEDPIE_0_L_Mechanics.L_Mechanics up for play (max tick rate 0) at 2023.04.29-15.23.47
+[2023.04.29-14.23.47:910][204]LogWorld: Bringing up level for play took: 0.003141
+[2023.04.29-14.23.47:912][204]LogOnline: OSS: Created online subsystem instance for: :Context_215
+[2023.04.29-14.23.47:912][204]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2023.04.29-14.23.47:913][204]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=210.000 Y=530.000 Z=92.400
+[2023.04.29-14.23.47:913][204]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.04.29-14.23.47:913][204]LogWorldPartition: Detected Streaming Source Teleport: PlayerController_0 -> Last Position: X=210.000 Y=530.000 Z=92.400 -> New Position: X=-35000.000 Y=1861.000 Z=840.000
+[2023.04.29-14.23.47:917][204]PIE: Server logged in
+[2023.04.29-14.23.47:921][204]PIE: Play in editor total start time 0.391 seconds.
+[2023.04.29-14.23.47:938][204]LogViewport: Scene viewport resized to 2554x1360, mode Windowed.
+[2023.04.29-14.23.57:804][879]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.29-14.23.57:804][879]LogWorld: BeginTearingDown for /Game/Celeste/Levels/UEDPIE_0_L_Mechanics
+[2023.04.29-14.23.57:805][879]LogSlate: Window 'Celeste Preview [NetMode: Standalone]  (64-bit/SM5)' being destroyed
+[2023.04.29-14.23.57:815][879]LogWorld: UWorld::CleanupWorld for L_Mechanics, bSessionEnded=true, bCleanupResources=true
+[2023.04.29-14.23.57:815][879]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.29-14.23.57:853][879]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.04.29-14.23.57:864][879]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.29-14.23.57:909][879]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=207
+[2023.04.29-14.23.57:910][879]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=207
+[2023.04.29-14.23.57:919][879]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2023.04.29-14.23.58:033][880]LogPlayLevel: Display: Destroying online subsystem :Context_215
+[2023.04.29-14.24.08:549][413]LogUObjectGlobals: Warning: Failed to find object 'Class None.Physics'
+[2023.04.29-14.25.47:978][791]LogSlate: Window 'Project Settings' being destroyed
+[2023.04.29-14.25.47:997][791]LogSlate: Window 'Project Settings' being destroyed
+[2023.04.29-14.26.41:325][365]BlueprintLog: New page: Compile BP_Celeste
+[2023.04.29-14.26.41:415][365]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
+[2023.04.29-14.26.42:344][460]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.04.29-14.26.42:354][460]LogWorldPartition: Display: GenerateStreaming started...
+[2023.04.29-14.26.42:354][460]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.04.29-14.26.42:354][460]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.04.29-14.26.42:354][460]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2023.04.29-14.26.42:354][460]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2023.04.29-14.26.42:354][460]LogWorldPartition: Display: GetPartitionedActors took 54 us
+[2023.04.29-14.26.42:355][460]LogWorldPartition: Display: GenerateStreaming took 219 us
+[2023.04.29-14.26.42:355][460]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.04.29-14.26.42:355][460]PIE: New page: PIE session: L_Mechanics (29 Apr 2023, 16:26:42)
+[2023.04.29-14.26.42:355][460]LogPlayLevel: Creating play world package: /Game/Celeste/Levels/UEDPIE_0_L_Mechanics
+[2023.04.29-14.26.42:358][460]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2023.04.29-14.26.42:358][460]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002751s)
+[2023.04.29-14.26.42:358][460]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Celeste/Levels/L_Mechanics.L_Mechanics to /Game/Celeste/Levels/UEDPIE_0_L_Mechanics.L_Mechanics (0.002808s)
+[2023.04.29-14.26.42:358][460]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.04.29-14.26.42:358][460]LogAIModule: Creating AISystem for world L_Mechanics
+[2023.04.29-14.26.42:359][460]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.04.29-14.26.42:359][460]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2023.04.29-14.26.42:359][460]LogWorldPartition: Display: WorldPartition initialize took 601 us
+[2023.04.29-14.26.42:359][460]LogPlayLevel: PIE: World Init took: (0.001557s)
+[2023.04.29-14.26.42:399][460]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2023.04.29-14.26.42:403][460]LogAudio: Display: Creating Audio Device:                 Id: 208, Scope: Unique, Realtime: True
+[2023.04.29-14.26.42:403][460]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.04.29-14.26.42:403][460]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.04.29-14.26.42:403][460]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.04.29-14.26.42:403][460]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.04.29-14.26.42:403][460]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.04.29-14.26.42:403][460]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.04.29-14.26.42:403][460]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.04.29-14.26.42:403][460]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.04.29-14.26.42:404][460]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.04.29-14.26.42:404][460]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.04.29-14.26.42:404][460]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.04.29-14.26.42:406][460]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.04.29-14.26.42:670][460]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (Corsair VIRTUOSO USB Gaming Headset)
+[2023.04.29-14.26.42:670][460]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.04.29-14.26.42:670][460]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.04.29-14.26.42:670][460]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.04.29-14.26.42:671][460]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=208
+[2023.04.29-14.26.42:671][460]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=208
+[2023.04.29-14.26.42:673][460]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=208
+[2023.04.29-14.26.42:673][460]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=208
+[2023.04.29-14.26.42:673][460]LogInit: FAudioDevice initialized.
+[2023.04.29-14.26.42:673][460]LogAudio: Display: Audio Device (ID: 208) registered with world 'L_Mechanics'.
+[2023.04.29-14.26.42:728][460]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.29-14.26.42:728][460]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.04.29-14.26.42:732][460]LogWorld: Bringing World /Game/Celeste/Levels/UEDPIE_0_L_Mechanics.L_Mechanics up for play (max tick rate 0) at 2023.04.29-15.26.42
+[2023.04.29-14.26.42:733][460]LogWorld: Bringing up level for play took: 0.003959
+[2023.04.29-14.26.42:735][460]LogOnline: OSS: Created online subsystem instance for: :Context_216
+[2023.04.29-14.26.42:735][460]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2023.04.29-14.26.42:736][460]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=210.000 Y=530.000 Z=92.400
+[2023.04.29-14.26.42:736][460]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.04.29-14.26.42:736][460]LogWorldPartition: Detected Streaming Source Teleport: PlayerController_0 -> Last Position: X=210.000 Y=530.000 Z=92.400 -> New Position: X=-35000.000 Y=1861.000 Z=840.000
+[2023.04.29-14.26.42:738][460]PIE: Server logged in
+[2023.04.29-14.26.42:741][460]PIE: Play in editor total start time 0.388 seconds.
+[2023.04.29-14.26.42:751][460]LogViewport: Scene viewport resized to 2554x1360, mode Windowed.
+[2023.04.29-14.26.51:614][275]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.29-14.26.51:614][275]LogWorld: BeginTearingDown for /Game/Celeste/Levels/UEDPIE_0_L_Mechanics
+[2023.04.29-14.26.51:615][275]LogSlate: Window 'Celeste Preview [NetMode: Standalone]  (64-bit/SM5)' being destroyed
+[2023.04.29-14.26.51:621][275]LogWorld: UWorld::CleanupWorld for L_Mechanics, bSessionEnded=true, bCleanupResources=true
+[2023.04.29-14.26.51:621][275]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.29-14.26.51:660][275]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.04.29-14.26.51:669][275]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.29-14.26.51:719][275]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=208
+[2023.04.29-14.26.51:721][275]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=208
+[2023.04.29-14.26.51:731][275]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2023.04.29-14.26.51:823][276]LogPlayLevel: Display: Destroying online subsystem :Context_216
+[2023.04.29-14.27.31:793][544]BlueprintLog: New page: Compile BP_Celeste
+[2023.04.29-14.27.31:889][544]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2023.04.29-14.27.33:354][695]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.04.29-14.27.33:363][695]LogWorldPartition: Display: GenerateStreaming started...
+[2023.04.29-14.27.33:364][695]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.04.29-14.27.33:364][695]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.04.29-14.27.33:364][695]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2023.04.29-14.27.33:364][695]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2023.04.29-14.27.33:364][695]LogWorldPartition: Display: GetPartitionedActors took 49 us
+[2023.04.29-14.27.33:364][695]LogWorldPartition: Display: GenerateStreaming took 214 us
+[2023.04.29-14.27.33:364][695]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.04.29-14.27.33:364][695]PIE: New page: PIE session: L_Mechanics (29 Apr 2023, 16:27:33)
+[2023.04.29-14.27.33:364][695]LogPlayLevel: Creating play world package: /Game/Celeste/Levels/UEDPIE_0_L_Mechanics
+[2023.04.29-14.27.33:367][695]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2023.04.29-14.27.33:367][695]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003010s)
+[2023.04.29-14.27.33:367][695]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Celeste/Levels/L_Mechanics.L_Mechanics to /Game/Celeste/Levels/UEDPIE_0_L_Mechanics.L_Mechanics (0.003068s)
+[2023.04.29-14.27.33:367][695]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.04.29-14.27.33:368][695]LogAIModule: Creating AISystem for world L_Mechanics
+[2023.04.29-14.27.33:368][695]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.04.29-14.27.33:368][695]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2023.04.29-14.27.33:369][695]LogWorldPartition: Display: WorldPartition initialize took 786 us
+[2023.04.29-14.27.33:369][695]LogPlayLevel: PIE: World Init took: (0.001853s)
+[2023.04.29-14.27.33:406][695]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2023.04.29-14.27.33:409][695]LogAudio: Display: Creating Audio Device:                 Id: 209, Scope: Unique, Realtime: True
+[2023.04.29-14.27.33:409][695]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.04.29-14.27.33:409][695]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.04.29-14.27.33:409][695]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.04.29-14.27.33:409][695]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.04.29-14.27.33:409][695]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.04.29-14.27.33:409][695]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.04.29-14.27.33:409][695]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.04.29-14.27.33:409][695]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.04.29-14.27.33:410][695]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.04.29-14.27.33:410][695]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.04.29-14.27.33:410][695]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.04.29-14.27.33:412][695]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.04.29-14.27.33:658][695]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (Corsair VIRTUOSO USB Gaming Headset)
+[2023.04.29-14.27.33:660][695]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.04.29-14.27.33:660][695]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.04.29-14.27.33:660][695]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.04.29-14.27.33:660][695]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=209
+[2023.04.29-14.27.33:660][695]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=209
+[2023.04.29-14.27.33:662][695]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=209
+[2023.04.29-14.27.33:662][695]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=209
+[2023.04.29-14.27.33:662][695]LogInit: FAudioDevice initialized.
+[2023.04.29-14.27.33:663][695]LogAudio: Display: Audio Device (ID: 209) registered with world 'L_Mechanics'.
+[2023.04.29-14.27.33:724][695]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.29-14.27.33:724][695]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.04.29-14.27.33:728][695]LogWorld: Bringing World /Game/Celeste/Levels/UEDPIE_0_L_Mechanics.L_Mechanics up for play (max tick rate 0) at 2023.04.29-15.27.33
+[2023.04.29-14.27.33:729][695]LogWorld: Bringing up level for play took: 0.004397
+[2023.04.29-14.27.33:732][695]LogOnline: OSS: Created online subsystem instance for: :Context_217
+[2023.04.29-14.27.33:732][695]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2023.04.29-14.27.33:733][695]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=210.000 Y=530.000 Z=92.400
+[2023.04.29-14.27.33:733][695]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.04.29-14.27.33:733][695]LogWorldPartition: Detected Streaming Source Teleport: PlayerController_0 -> Last Position: X=210.000 Y=530.000 Z=92.400 -> New Position: X=-35000.000 Y=1861.000 Z=840.000
+[2023.04.29-14.27.33:736][695]PIE: Server logged in
+[2023.04.29-14.27.33:738][695]PIE: Play in editor total start time 0.376 seconds.
+[2023.04.29-14.27.33:752][695]LogViewport: Scene viewport resized to 2554x1360, mode Windowed.
+[2023.04.29-14.27.35:954][884]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.35:962][885]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.35:971][886]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.35:979][887]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.35:991][888]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:001][889]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:010][890]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:018][891]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:028][892]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:037][893]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:045][894]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:058][895]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:066][896]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:076][897]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:085][898]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:095][899]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:105][900]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:113][901]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:123][902]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:131][903]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:141][904]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:149][905]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:159][906]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:168][907]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:178][908]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:188][909]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:196][910]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:206][911]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:215][912]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:225][913]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:236][914]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:244][915]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:253][916]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:261][917]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:272][918]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:281][919]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:291][920]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:300][921]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:311][922]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:321][923]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:330][924]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:338][925]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:347][926]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:359][927]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:368][928]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:379][929]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:390][930]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:402][931]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:409][932]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:419][933]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:430][934]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:442][935]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:451][936]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:464][937]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:474][938]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:483][939]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:493][940]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:504][941]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:513][942]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:524][943]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:532][944]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:542][945]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:552][946]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:563][947]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:576][948]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:588][949]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:597][950]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:608][951]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:619][952]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:628][953]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:638][954]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:646][955]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:658][956]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:666][957]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:676][958]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:684][959]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:693][960]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:703][961]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:712][962]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:725][963]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:734][964]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:745][965]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:756][966]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:764][967]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:774][968]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:784][969]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:796][970]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:807][971]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:816][972]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:826][973]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:834][974]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:844][975]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:855][976]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:863][977]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:874][978]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:883][979]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:893][980]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:901][981]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:911][982]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:923][983]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:930][984]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:941][985]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:949][986]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:960][987]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:973][988]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:981][989]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.36:995][990]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:005][991]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:014][992]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:024][993]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:033][994]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:045][995]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:055][996]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:064][997]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:075][998]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:083][999]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:094][  0]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:105][  1]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:113][  2]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:125][  3]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:134][  4]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:143][  5]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:153][  6]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:161][  7]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:170][  8]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:179][  9]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:190][ 10]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:200][ 11]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:209][ 12]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:221][ 13]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:230][ 14]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:241][ 15]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:251][ 16]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:264][ 17]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:274][ 18]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:283][ 19]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:293][ 20]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:302][ 21]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:312][ 22]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:323][ 23]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:331][ 24]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:342][ 25]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:351][ 26]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:363][ 27]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:373][ 28]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:382][ 29]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:392][ 30]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:402][ 31]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:411][ 32]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:420][ 33]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:430][ 34]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:443][ 35]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:457][ 36]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:466][ 37]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:476][ 38]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:489][ 39]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:499][ 40]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:509][ 41]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:519][ 42]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:528][ 43]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:541][ 44]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:551][ 45]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:562][ 46]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:571][ 47]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:584][ 48]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:594][ 49]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:604][ 50]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:614][ 51]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:625][ 52]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:633][ 53]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:642][ 54]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:652][ 55]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:662][ 56]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:676][ 57]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:687][ 58]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:695][ 59]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:706][ 60]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:714][ 61]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:726][ 62]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:736][ 63]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:744][ 64]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:752][ 65]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:762][ 66]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:771][ 67]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:779][ 68]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:789][ 69]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:800][ 70]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:811][ 71]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:819][ 72]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:828][ 73]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:837][ 74]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:847][ 75]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:858][ 76]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:866][ 77]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:876][ 78]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:886][ 79]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:895][ 80]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:904][ 81]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:914][ 82]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:925][ 83]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:935][ 84]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:946][ 85]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:955][ 86]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:965][ 87]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:976][ 88]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:985][ 89]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.37:995][ 90]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:004][ 91]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:012][ 92]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:020][ 93]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:031][ 94]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:043][ 95]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:052][ 96]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:062][ 97]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:072][ 98]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:083][ 99]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:095][100]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:106][101]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:114][102]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:125][103]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:135][104]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:144][105]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:153][106]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:164][107]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:175][108]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:184][109]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:194][110]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:205][111]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:217][112]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:228][113]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:236][114]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:246][115]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:254][116]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:266][117]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:277][118]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:287][119]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:295][120]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:304][121]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:315][122]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:327][123]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:339][124]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:348][125]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:362][126]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:373][127]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:381][128]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:391][129]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:400][130]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:410][131]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:418][132]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:428][133]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:437][134]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:446][135]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:456][136]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:463][137]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:475][138]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:485][139]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:495][140]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:503][141]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:513][142]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:524][143]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:532][144]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:542][145]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:551][146]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:562][147]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:577][148]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:591][149]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:599][150]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:611][151]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:625][152]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:638][153]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:647][154]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:658][155]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:668][156]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:680][157]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:694][158]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:704][159]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:712][160]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:723][161]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:731][162]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:742][163]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:752][164]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:763][165]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:774][166]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:782][167]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:792][168]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:802][169]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:813][170]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:824][171]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:833][172]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:842][173]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:851][174]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:860][175]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:869][176]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:879][177]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:891][178]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:899][179]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:911][180]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:921][181]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:931][182]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:943][183]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:951][184]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:961][185]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:970][186]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:979][187]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:990][188]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.38:999][189]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:009][190]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:018][191]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:028][192]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:040][193]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:048][194]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:059][195]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:070][196]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:079][197]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:088][198]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:098][199]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:109][200]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:117][201]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:127][202]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:138][203]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:148][204]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:159][205]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:168][206]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:179][207]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:189][208]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:199][209]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:207][210]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:215][211]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:228][212]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:239][213]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:246][214]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:259][215]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:268][216]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:279][217]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:292][218]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:303][219]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:315][220]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:327][221]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:336][222]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:344][223]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:354][224]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:364][225]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:375][226]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:383][227]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:394][228]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:402][229]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:411][230]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:419][231]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:428][232]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:439][233]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:449][234]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:460][235]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:469][236]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:477][237]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:487][238]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:497][239]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:508][240]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:517][241]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:527][242]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:536][243]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:548][244]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:559][245]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:569][246]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:582][247]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:595][248]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:606][249]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:616][250]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:628][251]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:636][252]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:646][253]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:659][254]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:670][255]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:681][256]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:694][257]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:702][258]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:712][259]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:724][260]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:734][261]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:744][262]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:753][263]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:763][264]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:774][265]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:783][266]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:794][267]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:803][268]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:811][269]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:819][270]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:829][271]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:837][272]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:846][273]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:858][274]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:870][275]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:882][276]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:894][277]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:906][278]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:914][279]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:924][280]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:933][281]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:943][282]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:952][283]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:963][284]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:975][285]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:984][286]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.39:997][287]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:007][288]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:016][289]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:025][290]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:033][291]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:044][292]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:055][293]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:063][294]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:075][295]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:085][296]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:094][297]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:104][298]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:113][299]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:125][300]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:134][301]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:145][302]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:154][303]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:165][304]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:178][305]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:187][306]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:198][307]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:208][308]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:216][309]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:228][310]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:240][311]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:248][312]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:260][313]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:271][314]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:283][315]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:296][316]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:307][317]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:316][318]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:328][319]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:338][320]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:348][321]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:359][322]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:370][323]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:381][324]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:394][325]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:410][326]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:419][327]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:429][328]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:438][329]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:446][330]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:458][331]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:466][332]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:476][333]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:487][334]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:496][335]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:507][336]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:515][337]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:527][338]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:537][339]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:547][340]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:557][341]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:565][342]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:575][343]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:584][344]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:596][345]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:607][346]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:615][347]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:626][348]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:634][349]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:644][350]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:653][351]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:663][352]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:675][353]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:683][354]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:694][355]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:702][356]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:711][357]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:720][358]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:728][359]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:737][360]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:747][361]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:758][362]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:765][363]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:776][364]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:787][365]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:798][366]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:808][367]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:816][368]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:827][369]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:835][370]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:847][371]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:857][372]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:865][373]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:875][374]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:883][375]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:894][376]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:903][377]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:914][378]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:925][379]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:934][380]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:946][381]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:960][382]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:970][383]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:978][384]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:986][385]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.40:996][386]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:010][387]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:018][388]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:030][389]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:039][390]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:048][391]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:058][392]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:065][393]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:077][394]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:085][395]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:096][396]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:106][397]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:115][398]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:124][399]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:132][400]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:142][401]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:150][402]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:159][403]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:168][404]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:179][405]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:193][406]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:201][407]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:211][408]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:222][409]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:232][410]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:244][411]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:251][412]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:261][413]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:270][414]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:280][415]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:293][416]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:303][417]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:316][418]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:327][419]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:336][420]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:346][421]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:356][422]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:366][423]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:376][424]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:385][425]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:393][426]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:402][427]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:412][428]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:421][429]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:430][430]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:441][431]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:448][432]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:457][433]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:465][434]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:478][435]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:487][436]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:499][437]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:511][438]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:520][439]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:531][440]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:543][441]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:551][442]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:562][443]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:571][444]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:579][445]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:590][446]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:600][447]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:611][448]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:619][449]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:630][450]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:646][451]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:658][452]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:667][453]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:677][454]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:686][455]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:697][456]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:706][457]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:715][458]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:725][459]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:733][460]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:744][461]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:752][462]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:762][463]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:774][464]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:784][465]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:796][466]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:804][467]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:814][468]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:822][469]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:831][470]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:840][471]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:849][472]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:860][473]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:869][474]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:877][475]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:886][476]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:896][477]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:906][478]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:918][479]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:927][480]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:937][481]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:946][482]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:955][483]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:965][484]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:976][485]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:985][486]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.41:996][487]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.42:007][488]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.42:017][489]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.42:030][490]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.42:043][491]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.42:056][492]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.42:064][493]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.42:075][494]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.42:083][495]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.42:095][496]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.42:106][497]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.42:117][498]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.42:130][499]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.42:140][500]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.42:148][501]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.42:161][502]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.42:170][503]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.42:182][504]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.42:192][505]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.42:201][506]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.42:212][507]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.42:224][508]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.42:234][509]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.42:246][510]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.42:255][511]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.42:263][512]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.42:276][513]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.42:285][514]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.42:297][515]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.42:310][516]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.42:323][517]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.42:333][518]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.42:344][519]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.42:353][520]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.42:364][521]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.42:373][522]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.42:382][523]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.42:390][524]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.42:399][525]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.42:410][526]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.42:418][527]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.42:428][528]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.42:437][529]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.42:446][530]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.42:456][531]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.42:467][532]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.42:477][533]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.42:486][534]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.42:496][535]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.42:505][536]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.42:513][537]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.42:522][538]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.42:532][539]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.42:540][540]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.42:550][541]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.42:561][542]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.42:569][543]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.42:579][544]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.42:588][545]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.42:600][546]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.42:610][547]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.42:618][548]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.42:628][549]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.42:637][550]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.42:645][551]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.42:654][552]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.42:664][553]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.42:671][554]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.42:680][555]PIE: Warning: BP_ThirdPersonCharacter.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2023.04.29-14.27.43:494][636]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.29-14.27.43:494][636]LogWorld: BeginTearingDown for /Game/Celeste/Levels/UEDPIE_0_L_Mechanics
+[2023.04.29-14.27.43:495][636]LogSlate: Window 'Celeste Preview [NetMode: Standalone]  (64-bit/SM5)' being destroyed
+[2023.04.29-14.27.43:503][636]LogWorld: UWorld::CleanupWorld for L_Mechanics, bSessionEnded=true, bCleanupResources=true
+[2023.04.29-14.27.43:503][636]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.29-14.27.43:548][636]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.04.29-14.27.43:559][636]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.29-14.27.43:599][636]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.04.29-14.27.43:599][636]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=209
+[2023.04.29-14.27.43:601][636]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=209
+[2023.04.29-14.27.43:613][636]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2023.04.29-14.27.44:756][637]LogPlayLevel: Display: Destroying online subsystem :Context_217
+[2023.04.29-14.27.47:507][949]LogSlate: Window 'Message Log' being destroyed
+[2023.04.29-14.27.47:518][949]LogSlate: Window 'Message Log' being destroyed
+[2023.04.29-14.28.15:947][754]BlueprintLog: New page: Compile BP_Celeste
+[2023.04.29-14.28.16:034][754]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2023.04.29-14.28.22:651][469]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.04.29-14.28.22:663][469]LogWorldPartition: Display: GenerateStreaming started...
+[2023.04.29-14.28.22:663][469]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.04.29-14.28.22:663][469]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.04.29-14.28.22:663][469]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2023.04.29-14.28.22:663][469]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2023.04.29-14.28.22:663][469]LogWorldPartition: Display: GetPartitionedActors took 158 us
+[2023.04.29-14.28.22:664][469]LogWorldPartition: Display: GenerateStreaming took 526 us
+[2023.04.29-14.28.22:664][469]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.04.29-14.28.22:665][469]LogPlayLevel: [PlayLevel] Compiling BP_Celeste before play...
+[2023.04.29-14.28.22:877][469]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2023.04.29-14.28.22:881][469]LogPlayLevel: PlayLevel: Blueprint regeneration took 215 ms (1 blueprints)
+[2023.04.29-14.28.22:881][469]PIE: New page: PIE session: L_Mechanics (29 Apr 2023, 16:28:22)
+[2023.04.29-14.28.22:881][469]LogPlayLevel: Creating play world package: /Game/Celeste/Levels/UEDPIE_0_L_Mechanics
+[2023.04.29-14.28.22:884][469]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2023.04.29-14.28.22:884][469]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003093s)
+[2023.04.29-14.28.22:884][469]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Celeste/Levels/L_Mechanics.L_Mechanics to /Game/Celeste/Levels/UEDPIE_0_L_Mechanics.L_Mechanics (0.003150s)
+[2023.04.29-14.28.22:884][469]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.04.29-14.28.22:885][469]LogAIModule: Creating AISystem for world L_Mechanics
+[2023.04.29-14.28.22:885][469]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.04.29-14.28.22:885][469]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2023.04.29-14.28.22:886][469]LogWorldPartition: Display: WorldPartition initialize took 796 us
+[2023.04.29-14.28.22:886][469]LogPlayLevel: PIE: World Init took: (0.001825s)
+[2023.04.29-14.28.22:927][469]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2023.04.29-14.28.22:928][469]LogAudio: Display: Creating Audio Device:                 Id: 210, Scope: Unique, Realtime: True
+[2023.04.29-14.28.22:928][469]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.04.29-14.28.22:928][469]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.04.29-14.28.22:928][469]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.04.29-14.28.22:928][469]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.04.29-14.28.22:928][469]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.04.29-14.28.22:928][469]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.04.29-14.28.22:928][469]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.04.29-14.28.22:928][469]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.04.29-14.28.22:929][469]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.04.29-14.28.22:929][469]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.04.29-14.28.22:929][469]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.04.29-14.28.22:931][469]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.04.29-14.28.23:169][469]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (Corsair VIRTUOSO USB Gaming Headset)
+[2023.04.29-14.28.23:169][469]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.04.29-14.28.23:169][469]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.04.29-14.28.23:169][469]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.04.29-14.28.23:171][469]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=210
+[2023.04.29-14.28.23:171][469]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=210
+[2023.04.29-14.28.23:200][469]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=210
+[2023.04.29-14.28.23:200][469]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=210
+[2023.04.29-14.28.23:200][469]LogInit: FAudioDevice initialized.
+[2023.04.29-14.28.23:200][469]LogAudio: Display: Audio Device (ID: 210) registered with world 'L_Mechanics'.
+[2023.04.29-14.28.23:270][469]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.29-14.28.23:270][469]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.04.29-14.28.23:274][469]LogWorld: Bringing World /Game/Celeste/Levels/UEDPIE_0_L_Mechanics.L_Mechanics up for play (max tick rate 0) at 2023.04.29-15.28.23
+[2023.04.29-14.28.23:275][469]LogWorld: Bringing up level for play took: 0.004707
+[2023.04.29-14.28.23:277][469]LogOnline: OSS: Created online subsystem instance for: :Context_218
+[2023.04.29-14.28.23:277][469]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2023.04.29-14.28.23:278][469]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=210.000 Y=530.000 Z=92.400
+[2023.04.29-14.28.23:278][469]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.04.29-14.28.23:278][469]LogWorldPartition: Detected Streaming Source Teleport: PlayerController_0 -> Last Position: X=210.000 Y=530.000 Z=92.400 -> New Position: X=-35000.000 Y=1861.000 Z=840.000
+[2023.04.29-14.28.23:279][469]PIE: Server logged in
+[2023.04.29-14.28.23:280][469]PIE: Play in editor total start time 0.618 seconds.
+[2023.04.29-14.28.23:339][469]LogViewport: Scene viewport resized to 2554x1360, mode Windowed.
+[2023.04.29-14.28.29:303][ 15]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.29-14.28.29:303][ 15]LogWorld: BeginTearingDown for /Game/Celeste/Levels/UEDPIE_0_L_Mechanics
+[2023.04.29-14.28.29:304][ 15]LogSlate: Window 'Celeste Preview [NetMode: Standalone]  (64-bit/SM5)' being destroyed
+[2023.04.29-14.28.29:311][ 15]LogWorld: UWorld::CleanupWorld for L_Mechanics, bSessionEnded=true, bCleanupResources=true
+[2023.04.29-14.28.29:312][ 15]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.29-14.28.29:357][ 15]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.04.29-14.28.29:365][ 15]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.29-14.28.29:408][ 15]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=210
+[2023.04.29-14.28.29:410][ 15]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=210
+[2023.04.29-14.28.29:420][ 15]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2023.04.29-14.28.29:532][ 16]LogPlayLevel: Display: Destroying online subsystem :Context_218
+[2023.04.29-14.28.37:108][845]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.04.29-14.28.37:119][845]LogWorldPartition: Display: GenerateStreaming started...
+[2023.04.29-14.28.37:119][845]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.04.29-14.28.37:120][845]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.04.29-14.28.37:120][845]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2023.04.29-14.28.37:120][845]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2023.04.29-14.28.37:120][845]LogWorldPartition: Display: GetPartitionedActors took 142 us
+[2023.04.29-14.28.37:120][845]LogWorldPartition: Display: GenerateStreaming took 356 us
+[2023.04.29-14.28.37:120][845]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.04.29-14.28.37:123][845]LogPlayLevel: [PlayLevel] Compiling BP_Celeste before play...
+[2023.04.29-14.28.37:266][845]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
+[2023.04.29-14.28.37:270][845]LogPlayLevel: PlayLevel: Blueprint regeneration took 149 ms (1 blueprints)
+[2023.04.29-14.28.37:270][845]PIE: New page: PIE session: L_Mechanics (29 Apr 2023, 16:28:37)
+[2023.04.29-14.28.37:270][845]LogPlayLevel: Creating play world package: /Game/Celeste/Levels/UEDPIE_0_L_Mechanics
+[2023.04.29-14.28.37:273][845]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2023.04.29-14.28.37:274][845]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003396s)
+[2023.04.29-14.28.37:274][845]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Celeste/Levels/L_Mechanics.L_Mechanics to /Game/Celeste/Levels/UEDPIE_0_L_Mechanics.L_Mechanics (0.003460s)
+[2023.04.29-14.28.37:274][845]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.04.29-14.28.37:274][845]LogAIModule: Creating AISystem for world L_Mechanics
+[2023.04.29-14.28.37:275][845]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.04.29-14.28.37:275][845]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2023.04.29-14.28.37:275][845]LogWorldPartition: Display: WorldPartition initialize took 721 us
+[2023.04.29-14.28.37:275][845]LogPlayLevel: PIE: World Init took: (0.001709s)
+[2023.04.29-14.28.37:314][845]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2023.04.29-14.28.37:316][845]LogAudio: Display: Creating Audio Device:                 Id: 211, Scope: Unique, Realtime: True
+[2023.04.29-14.28.37:316][845]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.04.29-14.28.37:316][845]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.04.29-14.28.37:316][845]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.04.29-14.28.37:316][845]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.04.29-14.28.37:316][845]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.04.29-14.28.37:316][845]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.04.29-14.28.37:316][845]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.04.29-14.28.37:316][845]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.04.29-14.28.37:317][845]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.04.29-14.28.37:317][845]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.04.29-14.28.37:317][845]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.04.29-14.28.37:319][845]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.04.29-14.28.37:601][845]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (Corsair VIRTUOSO USB Gaming Headset)
+[2023.04.29-14.28.37:601][845]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.04.29-14.28.37:601][845]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.04.29-14.28.37:601][845]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.04.29-14.28.37:602][845]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=211
+[2023.04.29-14.28.37:602][845]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=211
+[2023.04.29-14.28.37:604][845]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=211
+[2023.04.29-14.28.37:604][845]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=211
+[2023.04.29-14.28.37:604][845]LogInit: FAudioDevice initialized.
+[2023.04.29-14.28.37:604][845]LogAudio: Display: Audio Device (ID: 211) registered with world 'L_Mechanics'.
+[2023.04.29-14.28.37:662][845]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.29-14.28.37:662][845]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.04.29-14.28.37:666][845]LogWorld: Bringing World /Game/Celeste/Levels/UEDPIE_0_L_Mechanics.L_Mechanics up for play (max tick rate 0) at 2023.04.29-15.28.37
+[2023.04.29-14.28.37:666][845]LogWorld: Bringing up level for play took: 0.003401
+[2023.04.29-14.28.37:669][845]LogOnline: OSS: Created online subsystem instance for: :Context_219
+[2023.04.29-14.28.37:670][845]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2023.04.29-14.28.37:670][845]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=210.000 Y=530.000 Z=92.400
+[2023.04.29-14.28.37:670][845]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.04.29-14.28.37:671][845]LogWorldPartition: Detected Streaming Source Teleport: PlayerController_0 -> Last Position: X=210.000 Y=530.000 Z=92.400 -> New Position: X=-35000.000 Y=1861.000 Z=840.000
+[2023.04.29-14.28.37:672][845]PIE: Server logged in
+[2023.04.29-14.28.37:674][845]PIE: Play in editor total start time 0.555 seconds.
+[2023.04.29-14.28.37:745][845]LogViewport: Scene viewport resized to 2554x1360, mode Windowed.
+[2023.04.29-14.28.57:384][153]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.29-14.28.57:384][153]LogWorld: BeginTearingDown for /Game/Celeste/Levels/UEDPIE_0_L_Mechanics
+[2023.04.29-14.28.57:385][153]LogSlate: Window 'Celeste Preview [NetMode: Standalone]  (64-bit/SM5)' being destroyed
+[2023.04.29-14.28.57:392][153]LogWorld: UWorld::CleanupWorld for L_Mechanics, bSessionEnded=true, bCleanupResources=true
+[2023.04.29-14.28.57:393][153]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.29-14.28.57:441][153]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.04.29-14.28.57:448][153]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.29-14.28.57:494][153]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=211
+[2023.04.29-14.28.57:496][153]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=211
+[2023.04.29-14.28.57:508][153]LogUObjectHash: Compacting FUObjectHashTables data took   5.14ms
+[2023.04.29-14.28.57:645][154]LogPlayLevel: Display: Destroying online subsystem :Context_219
+[2023.04.29-14.28.59:783][390]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.04.29-14.28.59:793][390]LogWorldPartition: Display: GenerateStreaming started...
+[2023.04.29-14.28.59:793][390]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.04.29-14.28.59:793][390]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.04.29-14.28.59:793][390]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2023.04.29-14.28.59:793][390]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2023.04.29-14.28.59:793][390]LogWorldPartition: Display: GetPartitionedActors took 51 us
+[2023.04.29-14.28.59:793][390]LogWorldPartition: Display: GenerateStreaming took 157 us
+[2023.04.29-14.28.59:793][390]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.04.29-14.28.59:793][390]PIE: New page: PIE session: L_Mechanics (29 Apr 2023, 16:28:59)
+[2023.04.29-14.28.59:794][390]LogPlayLevel: Creating play world package: /Game/Celeste/Levels/UEDPIE_0_L_Mechanics
+[2023.04.29-14.28.59:796][390]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2023.04.29-14.28.59:796][390]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002681s)
+[2023.04.29-14.28.59:796][390]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Celeste/Levels/L_Mechanics.L_Mechanics to /Game/Celeste/Levels/UEDPIE_0_L_Mechanics.L_Mechanics (0.002736s)
+[2023.04.29-14.28.59:796][390]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.04.29-14.28.59:797][390]LogAIModule: Creating AISystem for world L_Mechanics
+[2023.04.29-14.28.59:797][390]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.04.29-14.28.59:797][390]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2023.04.29-14.28.59:798][390]LogWorldPartition: Display: WorldPartition initialize took 924 us
+[2023.04.29-14.28.59:798][390]LogPlayLevel: PIE: World Init took: (0.002008s)
+[2023.04.29-14.28.59:840][390]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2023.04.29-14.28.59:842][390]LogAudio: Display: Creating Audio Device:                 Id: 212, Scope: Unique, Realtime: True
+[2023.04.29-14.28.59:842][390]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.04.29-14.28.59:842][390]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.04.29-14.28.59:842][390]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.04.29-14.28.59:842][390]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.04.29-14.28.59:842][390]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.04.29-14.28.59:842][390]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.04.29-14.28.59:842][390]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.04.29-14.28.59:842][390]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.04.29-14.28.59:843][390]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.04.29-14.28.59:843][390]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.04.29-14.28.59:843][390]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.04.29-14.28.59:845][390]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.04.29-14.29.00:088][390]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (Corsair VIRTUOSO USB Gaming Headset)
+[2023.04.29-14.29.00:088][390]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.04.29-14.29.00:088][390]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.04.29-14.29.00:088][390]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.04.29-14.29.00:088][390]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=212
+[2023.04.29-14.29.00:088][390]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=212
+[2023.04.29-14.29.00:090][390]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=212
+[2023.04.29-14.29.00:090][390]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=212
+[2023.04.29-14.29.00:090][390]LogInit: FAudioDevice initialized.
+[2023.04.29-14.29.00:090][390]LogAudio: Display: Audio Device (ID: 212) registered with world 'L_Mechanics'.
+[2023.04.29-14.29.00:148][390]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.29-14.29.00:148][390]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.04.29-14.29.00:151][390]LogWorld: Bringing World /Game/Celeste/Levels/UEDPIE_0_L_Mechanics.L_Mechanics up for play (max tick rate 0) at 2023.04.29-15.29.00
+[2023.04.29-14.29.00:151][390]LogWorld: Bringing up level for play took: 0.003194
+[2023.04.29-14.29.00:154][390]LogOnline: OSS: Created online subsystem instance for: :Context_220
+[2023.04.29-14.29.00:154][390]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2023.04.29-14.29.00:154][390]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=210.000 Y=530.000 Z=92.400
+[2023.04.29-14.29.00:154][390]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.04.29-14.29.00:155][390]LogWorldPartition: Detected Streaming Source Teleport: PlayerController_0 -> Last Position: X=210.000 Y=530.000 Z=92.400 -> New Position: X=-35000.000 Y=1861.000 Z=840.000
+[2023.04.29-14.29.00:159][390]PIE: Server logged in
+[2023.04.29-14.29.00:165][390]PIE: Play in editor total start time 0.372 seconds.
+[2023.04.29-14.29.00:174][390]LogViewport: Scene viewport resized to 2554x1360, mode Windowed.
+[2023.04.29-14.29.08:364][990]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.29-14.29.08:364][990]LogWorld: BeginTearingDown for /Game/Celeste/Levels/UEDPIE_0_L_Mechanics
+[2023.04.29-14.29.08:365][990]LogSlate: Window 'Celeste Preview [NetMode: Standalone]  (64-bit/SM5)' being destroyed
+[2023.04.29-14.29.08:371][990]LogWorld: UWorld::CleanupWorld for L_Mechanics, bSessionEnded=true, bCleanupResources=true
+[2023.04.29-14.29.08:372][990]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.29-14.29.08:417][990]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.04.29-14.29.08:423][990]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.29-14.29.08:460][990]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=212
+[2023.04.29-14.29.08:461][990]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=212
+[2023.04.29-14.29.08:469][990]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2023.04.29-14.29.08:602][991]LogPlayLevel: Display: Destroying online subsystem :Context_220
+[2023.04.29-14.29.34:439][692]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.04.29-14.29.34:449][692]LogWorldPartition: Display: GenerateStreaming started...
+[2023.04.29-14.29.34:449][692]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.04.29-14.29.34:449][692]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.04.29-14.29.34:449][692]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2023.04.29-14.29.34:449][692]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2023.04.29-14.29.34:449][692]LogWorldPartition: Display: GetPartitionedActors took 54 us
+[2023.04.29-14.29.34:449][692]LogWorldPartition: Display: GenerateStreaming took 187 us
+[2023.04.29-14.29.34:449][692]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.04.29-14.29.34:450][692]LogPlayLevel: [PlayLevel] Compiling BP_Celeste before play...
+[2023.04.29-14.29.34:573][692]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2023.04.29-14.29.34:575][692]LogPlayLevel: PlayLevel: Blueprint regeneration took 126 ms (1 blueprints)
+[2023.04.29-14.29.34:575][692]PIE: New page: PIE session: L_Mechanics (29 Apr 2023, 16:29:34)
+[2023.04.29-14.29.34:575][692]LogPlayLevel: Creating play world package: /Game/Celeste/Levels/UEDPIE_0_L_Mechanics
+[2023.04.29-14.29.34:577][692]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2023.04.29-14.29.34:578][692]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002576s)
+[2023.04.29-14.29.34:578][692]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Celeste/Levels/L_Mechanics.L_Mechanics to /Game/Celeste/Levels/UEDPIE_0_L_Mechanics.L_Mechanics (0.002631s)
+[2023.04.29-14.29.34:578][692]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.04.29-14.29.34:578][692]LogAIModule: Creating AISystem for world L_Mechanics
+[2023.04.29-14.29.34:578][692]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.04.29-14.29.34:579][692]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2023.04.29-14.29.34:580][692]LogWorldPartition: Display: WorldPartition initialize took 1 ms
+[2023.04.29-14.29.34:580][692]LogPlayLevel: PIE: World Init took: (0.002413s)
+[2023.04.29-14.29.35:190][692]LogUObjectHash: Compacting FUObjectHashTables data took 576.96ms
+[2023.04.29-14.29.35:193][692]LogAudio: Display: Creating Audio Device:                 Id: 213, Scope: Unique, Realtime: True
+[2023.04.29-14.29.35:193][692]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.04.29-14.29.35:193][692]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.04.29-14.29.35:194][692]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.04.29-14.29.35:194][692]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.04.29-14.29.35:194][692]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.04.29-14.29.35:194][692]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.04.29-14.29.35:194][692]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.04.29-14.29.35:194][692]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.04.29-14.29.35:196][692]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.04.29-14.29.35:196][692]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.04.29-14.29.35:196][692]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.04.29-14.29.35:201][692]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.04.29-14.29.35:695][692]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (Corsair VIRTUOSO USB Gaming Headset)
+[2023.04.29-14.29.35:696][692]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.04.29-14.29.35:696][692]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.04.29-14.29.35:696][692]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.04.29-14.29.35:698][692]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=213
+[2023.04.29-14.29.35:698][692]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=213
+[2023.04.29-14.29.35:700][692]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=213
+[2023.04.29-14.29.35:700][692]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=213
+[2023.04.29-14.29.35:700][692]LogInit: FAudioDevice initialized.
+[2023.04.29-14.29.35:700][692]LogAudio: Display: Audio Device (ID: 213) registered with world 'L_Mechanics'.
+[2023.04.29-14.29.35:761][692]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.29-14.29.35:761][692]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.04.29-14.29.35:764][692]LogWorld: Bringing World /Game/Celeste/Levels/UEDPIE_0_L_Mechanics.L_Mechanics up for play (max tick rate 0) at 2023.04.29-15.29.35
+[2023.04.29-14.29.35:765][692]LogWorld: Bringing up level for play took: 0.003286
+[2023.04.29-14.29.35:767][692]LogOnline: OSS: Created online subsystem instance for: :Context_221
+[2023.04.29-14.29.35:768][692]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2023.04.29-14.29.35:768][692]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=210.000 Y=530.000 Z=92.400
+[2023.04.29-14.29.35:768][692]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.04.29-14.29.35:769][692]LogWorldPartition: Detected Streaming Source Teleport: PlayerController_0 -> Last Position: X=210.000 Y=530.000 Z=92.400 -> New Position: X=-35000.000 Y=1861.000 Z=840.000
+[2023.04.29-14.29.35:770][692]PIE: Server logged in
+[2023.04.29-14.29.35:771][692]PIE: Play in editor total start time 1.323 seconds.
+[2023.04.29-14.29.35:830][692]LogViewport: Scene viewport resized to 2554x1360, mode Windowed.
+[2023.04.29-14.29.48:324][536]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.29-14.29.48:324][536]LogWorld: BeginTearingDown for /Game/Celeste/Levels/UEDPIE_0_L_Mechanics
+[2023.04.29-14.29.48:325][536]LogSlate: Window 'Celeste Preview [NetMode: Standalone]  (64-bit/SM5)' being destroyed
+[2023.04.29-14.29.48:333][536]LogWorld: UWorld::CleanupWorld for L_Mechanics, bSessionEnded=true, bCleanupResources=true
+[2023.04.29-14.29.48:333][536]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.29-14.29.48:372][536]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.04.29-14.29.48:378][536]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.29-14.29.48:416][536]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=213
+[2023.04.29-14.29.48:417][536]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=213
+[2023.04.29-14.29.48:423][536]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2023.04.29-14.29.48:511][537]LogPlayLevel: Display: Destroying online subsystem :Context_221
+[2023.04.29-14.29.52:651][951]LogDerivedDataCache: C:/Users/Thomas Paul/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:02.989 and deleted 0 file(s) with total size 0 MiB.
+[2023.04.29-14.30.01:166][886]BlueprintLog: New page: Compile BP_Celeste
+[2023.04.29-14.30.01:243][886]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2023.04.29-14.30.02:543][ 24]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.04.29-14.30.02:553][ 24]LogWorldPartition: Display: GenerateStreaming started...
+[2023.04.29-14.30.02:553][ 24]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.04.29-14.30.02:553][ 24]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.04.29-14.30.02:553][ 24]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2023.04.29-14.30.02:553][ 24]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2023.04.29-14.30.02:553][ 24]LogWorldPartition: Display: GetPartitionedActors took 65 us
+[2023.04.29-14.30.02:553][ 24]LogWorldPartition: Display: GenerateStreaming took 283 us
+[2023.04.29-14.30.02:554][ 24]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.04.29-14.30.02:554][ 24]PIE: New page: PIE session: L_Mechanics (29 Apr 2023, 16:30:02)
+[2023.04.29-14.30.02:554][ 24]LogPlayLevel: Creating play world package: /Game/Celeste/Levels/UEDPIE_0_L_Mechanics
+[2023.04.29-14.30.02:558][ 24]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2023.04.29-14.30.02:558][ 24]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004049s)
+[2023.04.29-14.30.02:558][ 24]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Celeste/Levels/L_Mechanics.L_Mechanics to /Game/Celeste/Levels/UEDPIE_0_L_Mechanics.L_Mechanics (0.004112s)
+[2023.04.29-14.30.02:558][ 24]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.04.29-14.30.02:558][ 24]LogAIModule: Creating AISystem for world L_Mechanics
+[2023.04.29-14.30.02:559][ 24]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.04.29-14.30.02:559][ 24]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2023.04.29-14.30.02:560][ 24]LogWorldPartition: Display: WorldPartition initialize took 760 us
+[2023.04.29-14.30.02:560][ 24]LogPlayLevel: PIE: World Init took: (0.002091s)
+[2023.04.29-14.30.02:595][ 24]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2023.04.29-14.30.02:598][ 24]LogAudio: Display: Creating Audio Device:                 Id: 214, Scope: Unique, Realtime: True
+[2023.04.29-14.30.02:598][ 24]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.04.29-14.30.02:598][ 24]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.04.29-14.30.02:598][ 24]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.04.29-14.30.02:598][ 24]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.04.29-14.30.02:598][ 24]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.04.29-14.30.02:598][ 24]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.04.29-14.30.02:598][ 24]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.04.29-14.30.02:598][ 24]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.04.29-14.30.02:598][ 24]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.04.29-14.30.02:598][ 24]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.04.29-14.30.02:598][ 24]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.04.29-14.30.02:600][ 24]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.04.29-14.30.02:826][ 24]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (Corsair VIRTUOSO USB Gaming Headset)
+[2023.04.29-14.30.02:827][ 24]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.04.29-14.30.02:827][ 24]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.04.29-14.30.02:827][ 24]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.04.29-14.30.02:827][ 24]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=214
+[2023.04.29-14.30.02:827][ 24]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=214
+[2023.04.29-14.30.02:828][ 24]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=214
+[2023.04.29-14.30.02:828][ 24]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=214
+[2023.04.29-14.30.02:828][ 24]LogInit: FAudioDevice initialized.
+[2023.04.29-14.30.02:829][ 24]LogAudio: Display: Audio Device (ID: 214) registered with world 'L_Mechanics'.
+[2023.04.29-14.30.02:897][ 24]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.29-14.30.02:897][ 24]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.04.29-14.30.02:900][ 24]LogWorld: Bringing World /Game/Celeste/Levels/UEDPIE_0_L_Mechanics.L_Mechanics up for play (max tick rate 0) at 2023.04.29-15.30.02
+[2023.04.29-14.30.02:901][ 24]LogWorld: Bringing up level for play took: 0.003394
+[2023.04.29-14.30.02:903][ 24]LogOnline: OSS: Created online subsystem instance for: :Context_222
+[2023.04.29-14.30.02:904][ 24]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2023.04.29-14.30.02:904][ 24]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=210.000 Y=530.000 Z=92.400
+[2023.04.29-14.30.02:904][ 24]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.04.29-14.30.02:905][ 24]LogWorldPartition: Detected Streaming Source Teleport: PlayerController_0 -> Last Position: X=210.000 Y=530.000 Z=92.400 -> New Position: X=-35000.000 Y=1861.000 Z=840.000
+[2023.04.29-14.30.02:908][ 24]PIE: Server logged in
+[2023.04.29-14.30.02:911][ 24]PIE: Play in editor total start time 0.359 seconds.
+[2023.04.29-14.30.02:925][ 24]LogViewport: Scene viewport resized to 2554x1360, mode Windowed.
+[2023.04.29-14.30.13:263][726]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.29-14.30.13:263][726]LogWorld: BeginTearingDown for /Game/Celeste/Levels/UEDPIE_0_L_Mechanics
+[2023.04.29-14.30.13:264][726]LogSlate: Window 'Celeste Preview [NetMode: Standalone]  (64-bit/SM5)' being destroyed
+[2023.04.29-14.30.13:271][726]LogWorld: UWorld::CleanupWorld for L_Mechanics, bSessionEnded=true, bCleanupResources=true
+[2023.04.29-14.30.13:271][726]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.29-14.30.13:312][726]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.04.29-14.30.13:323][726]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.29-14.30.13:361][726]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=214
+[2023.04.29-14.30.13:363][726]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=214
+[2023.04.29-14.30.13:373][726]LogUObjectHash: Compacting FUObjectHashTables data took   4.42ms
+[2023.04.29-14.30.13:466][727]LogPlayLevel: Display: Destroying online subsystem :Context_222
+[2023.04.29-14.30.14:633][863]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.04.29-14.30.14:643][863]LogWorldPartition: Display: GenerateStreaming started...
+[2023.04.29-14.30.14:643][863]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.04.29-14.30.14:643][863]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.04.29-14.30.14:643][863]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2023.04.29-14.30.14:643][863]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2023.04.29-14.30.14:643][863]LogWorldPartition: Display: GetPartitionedActors took 49 us
+[2023.04.29-14.30.14:643][863]LogWorldPartition: Display: GenerateStreaming took 149 us
+[2023.04.29-14.30.14:643][863]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.04.29-14.30.14:643][863]PIE: New page: PIE session: L_Mechanics (29 Apr 2023, 16:30:14)
+[2023.04.29-14.30.14:644][863]LogPlayLevel: Creating play world package: /Game/Celeste/Levels/UEDPIE_0_L_Mechanics
+[2023.04.29-14.30.14:646][863]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2023.04.29-14.30.14:646][863]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002730s)
+[2023.04.29-14.30.14:646][863]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Celeste/Levels/L_Mechanics.L_Mechanics to /Game/Celeste/Levels/UEDPIE_0_L_Mechanics.L_Mechanics (0.002790s)
+[2023.04.29-14.30.14:646][863]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.04.29-14.30.14:647][863]LogAIModule: Creating AISystem for world L_Mechanics
+[2023.04.29-14.30.14:647][863]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.04.29-14.30.14:647][863]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2023.04.29-14.30.14:648][863]LogWorldPartition: Display: WorldPartition initialize took 695 us
+[2023.04.29-14.30.14:648][863]LogPlayLevel: PIE: World Init took: (0.001690s)
+[2023.04.29-14.30.14:680][863]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2023.04.29-14.30.14:682][863]LogAudio: Display: Creating Audio Device:                 Id: 215, Scope: Unique, Realtime: True
+[2023.04.29-14.30.14:682][863]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.04.29-14.30.14:682][863]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.04.29-14.30.14:682][863]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.04.29-14.30.14:682][863]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.04.29-14.30.14:682][863]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.04.29-14.30.14:682][863]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.04.29-14.30.14:683][863]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.04.29-14.30.14:683][863]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.04.29-14.30.14:683][863]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.04.29-14.30.14:683][863]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.04.29-14.30.14:683][863]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.04.29-14.30.14:686][863]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.04.29-14.30.14:924][863]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (Corsair VIRTUOSO USB Gaming Headset)
+[2023.04.29-14.30.14:925][863]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.04.29-14.30.14:925][863]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.04.29-14.30.14:925][863]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.04.29-14.30.14:925][863]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=215
+[2023.04.29-14.30.14:925][863]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=215
+[2023.04.29-14.30.14:927][863]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=215
+[2023.04.29-14.30.14:927][863]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=215
+[2023.04.29-14.30.14:927][863]LogInit: FAudioDevice initialized.
+[2023.04.29-14.30.14:927][863]LogAudio: Display: Audio Device (ID: 215) registered with world 'L_Mechanics'.
+[2023.04.29-14.30.14:979][863]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.29-14.30.14:979][863]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.04.29-14.30.14:982][863]LogWorld: Bringing World /Game/Celeste/Levels/UEDPIE_0_L_Mechanics.L_Mechanics up for play (max tick rate 0) at 2023.04.29-15.30.14
+[2023.04.29-14.30.14:983][863]LogWorld: Bringing up level for play took: 0.003206
+[2023.04.29-14.30.14:986][863]LogOnline: OSS: Created online subsystem instance for: :Context_223
+[2023.04.29-14.30.14:987][863]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2023.04.29-14.30.14:988][863]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=210.000 Y=530.000 Z=92.400
+[2023.04.29-14.30.14:988][863]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.04.29-14.30.14:988][863]LogWorldPartition: Detected Streaming Source Teleport: PlayerController_0 -> Last Position: X=210.000 Y=530.000 Z=92.400 -> New Position: X=-35000.000 Y=1861.000 Z=840.000
+[2023.04.29-14.30.14:991][863]PIE: Server logged in
+[2023.04.29-14.30.14:993][863]PIE: Play in editor total start time 0.351 seconds.
+[2023.04.29-14.30.15:005][863]LogViewport: Scene viewport resized to 2554x1360, mode Windowed.
+[2023.04.29-14.30.16:699][931]LogViewport: Scene viewport resized to 2560x1366, mode Windowed.
+[2023.04.29-14.31.00:364][942]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.29-14.31.00:364][942]LogWorld: BeginTearingDown for /Game/Celeste/Levels/UEDPIE_0_L_Mechanics
+[2023.04.29-14.31.00:365][942]LogSlate: Window 'Celeste Preview [NetMode: Standalone]  (64-bit/SM5)' being destroyed
+[2023.04.29-14.31.00:375][942]LogWorld: UWorld::CleanupWorld for L_Mechanics, bSessionEnded=true, bCleanupResources=true
+[2023.04.29-14.31.00:375][942]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.29-14.31.00:425][942]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.04.29-14.31.00:433][942]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.29-14.31.00:475][942]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=215
+[2023.04.29-14.31.00:478][942]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=215
+[2023.04.29-14.31.00:485][942]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2023.04.29-14.31.00:585][943]LogPlayLevel: Display: Destroying online subsystem :Context_223
+[2023.04.29-14.36.24:529][675]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2023.04.29-14.36.24:535][675]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Celeste/Levels/L_Mechanics/C/3S/KALP1XSAMTT7OMWW5VWGYZ_Auto9
+[2023.04.29-14.36.24:535][675]LogSavePackage: Moving 'F:/Unreal Projects/Celeste/Celeste/Saved/KALP1XSAMTT7OMWW5VWGYZ_Auto9EEBA20B544C17EA8543261993F332FAA.tmp' to 'F:/Unreal Projects/Celeste/Celeste/Saved/Autosaves/Game/__ExternalActors__/Celeste/Levels/L_Mechanics/C/3S/KALP1XSAMTT7OMWW5VWGYZ_Auto9.uasset'
+[2023.04.29-14.36.24:539][675]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Celeste/Levels/L_Mechanics' took 0.052
+[2023.04.29-14.36.24:539][675]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.052
+[2023.04.29-14.36.24:539][675]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Celeste/Mechanics/BP_Celeste] ([2] browsable assets)...
+[2023.04.29-14.36.24:586][675]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Celeste/Mechanics/BP_Celeste.BP_Celeste]
+[2023.04.29-14.36.24:586][675]OBJ SavePackage: Finished generating thumbnails for package [/Game/Celeste/Mechanics/BP_Celeste]
+[2023.04.29-14.36.24:586][675]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Celeste/Mechanics/BP_Celeste" FILE="F:/Unreal Projects/Celeste/Celeste/Saved/Autosaves/Game/Celeste/Mechanics/BP_Celeste_Auto9.uasset" SILENT=false AUTOSAVING=true
+[2023.04.29-14.36.24:628][675]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Celeste/Mechanics/BP_Celeste_Auto9
+[2023.04.29-14.36.24:678][675]LogSavePackage: Moving 'F:/Unreal Projects/Celeste/Celeste/Saved/BP_Celeste_Auto95FB8C826486DA8FC2477D8B56044704A.tmp' to 'F:/Unreal Projects/Celeste/Celeste/Saved/Autosaves/Game/Celeste/Mechanics/BP_Celeste_Auto9.uasset'
+[2023.04.29-14.36.24:683][675]LogFileHelpers: Auto-saving content packages took 0.145
+[2023.04.29-15.08.16:697][460]LogUObjectHash: Compacting FUObjectHashTables data took   5.36ms
+[2023.04.29-15.08.16:707][460]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Celeste/Levels/L_Mechanics' took 0.162
+[2023.04.29-15.08.16:708][460]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Celeste/Mechanics/BP_Celeste] ([2] browsable assets)...
+[2023.04.29-15.08.16:710][460]OBJ SavePackage: Finished generating thumbnails for package [/Game/Celeste/Mechanics/BP_Celeste]
+[2023.04.29-15.08.16:710][460]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Celeste/Mechanics/BP_Celeste" FILE="F:/Unreal Projects/Celeste/Celeste/Saved/Autosaves/Game/Celeste/Mechanics/BP_Celeste_Auto0.uasset" SILENT=false AUTOSAVING=true
+[2023.04.29-15.08.16:739][460]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Celeste/Mechanics/BP_Celeste_Auto0
+[2023.04.29-15.08.16:761][460]LogSavePackage: Moving 'F:/Unreal Projects/Celeste/Celeste/Saved/BP_Celeste_Auto01CE9B304444E8E8727721EBEF2B4887D.tmp' to 'F:/Unreal Projects/Celeste/Celeste/Saved/Autosaves/Game/Celeste/Mechanics/BP_Celeste_Auto0.uasset'
+[2023.04.29-15.08.16:764][460]LogFileHelpers: Auto-saving content packages took 0.058
